@@ -4,6 +4,6 @@
 
   Nếu không sử dụng form tag <form:form>, chỉ sử dụng <form> thông thường của HTML, ta có thể thêm thủ công để được kết quả tương ứng. Đặt code sau vào trong nội dung form:
     <!--  I'm manually adding tokens -->
-						<input type="hidden"
-							name="${_csrf.parameterName}" 
-							value="${_csrf.token }"/>
+<input type="hidden"
+	name="${_csrf.parameterName}" 
+	value="${_csrf.token }"/>
